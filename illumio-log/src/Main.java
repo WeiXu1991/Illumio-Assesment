@@ -58,7 +58,7 @@ public class Main {
             writer.write("Port,Protocol,Count ");
             writer.newLine();
             for (String comb : comCount.keySet()) {
-                writer.write(comb + ',' + tagCount.get(comb));
+                writer.write(comb + ',' + comCount.get(comb));
                 writer.newLine();
             }
         } catch (IOException e) {
